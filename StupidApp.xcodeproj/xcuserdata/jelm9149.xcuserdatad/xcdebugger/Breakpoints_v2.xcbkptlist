@@ -26,25 +26,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "StupidApp/ViewController.swift"
-            timestampString = "472071629.003735"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "StupidApp/ViewController.swift"
             timestampString = "472072268.629008"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "9"
             endingLineNumber = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StupidApp.ViewController.__deallocating_deinit"
+                  moduleName = "StupidApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jelm9149/Documents/SwiftProjects/StupidApp/StupidApp/ViewController.swift"
+                  timestampString = "472162569.908921"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StupidApp.ViewController.init (StupidApp.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;StupidApp.ViewController&gt;"
+                  moduleName = "StupidApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jelm9149/Documents/SwiftProjects/StupidApp/StupidApp/ViewController.swift"
+                  timestampString = "472162569.909182"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

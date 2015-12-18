@@ -11,22 +11,31 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    @IBAction func changeColor(sender:
-        UIButton)
+    @IBAction func changeBackgroundColor
+        (sender: UIButton)
     {
-        view.backgroundColor = UIColor.blackColor()
+        changeColor()
     }
     
-    func randomColorChange()
+    func changeColor()
     {
-        let newRed = CGFloat(Double,
-            (arc4random_uniform(256)) /
-            255.000)
-        let newGreen = CGFloat(Double,
-            (arc4random_uniform(256)) /
-            255.000)
+        let newGreen = CGFloat(Double(arc4random_uniform(256)) / 255.000)
+        let newRed = CGFloat(Double(arc4random_uniform(256)) / 255.000)
+        let newBlue = CGFloat(Double(arc4random_uniform(256)) / 255.000)
+        
+        view.backgroundColor = UIColor(red: newRed, green: newGreen, blue: newBlue, alpha: 1.0)
     }
-
+    
+    @IBAction func hasRed(sender: UISwitch)
+    {
+        changeColor()
+    }
+    
+    @IBAction func Color(sender: UISegmentedControl)
+    {
+        changeColor()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
